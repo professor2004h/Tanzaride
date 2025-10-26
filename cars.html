@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Browse Cars | TANZARIDE Car Rental Tanzania</title>
+    <meta name="description" content="Browse available cars for rent in Tanzania. Find the perfect vehicle for your journey with TANZARIDE's trusted car rental platform.">
+    <meta name="keywords" content="rent car Tanzania, available cars Tanzania, car rental Dar es Salaam, vehicle rental Tanzania, TANZARIDE cars">
+    <meta name="author" content="TANZARIDE">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Browse Cars | TANZARIDE Car Rental Tanzania">
+    <meta property="og:description" content="Browse available cars for rent in Tanzania with TANZARIDE.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tanzaride.com/cars.html">
+    <meta property="og:image" content="https://tanzaride.com/assets/TanzaRide-Logo.webp">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="assets/TanzaRide-Logo.webp">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://tanzaride.com/cars.html">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="container">
+            <a href="index.html">
+                <img src="assets/TanzaRide-Logo.webp" alt="TANZARIDE Logo - Car Rental Tanzania" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="howitworks.html">How It Works</a></li>
+                <li><a href="cars.html">Browse Cars</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="listcar.html">List Your Car</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero">
+        <div class="container">
+            <h1>Browse Available Cars</h1>
+            <p>Find the perfect vehicle for your journey across Tanzania</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="container" style="margin-top: 2rem;">
+        <div class="filter-section">
+            <div class="search-box">
+                <input type="text" id="car-search" placeholder="🔍 Search vehicles..." aria-label="Search vehicles">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Vehicles</button>
+                <button class="filter-btn" data-filter="ceremonial-luxury">Luxury</button>
+                <button class="filter-btn" data-filter="city-short-trips">City Cars</button>
+                <button class="filter-btn" data-filter="safari-cars">Safari 4x4</button>
+                <button class="filter-btn" data-filter="tour-group-vans">Vans & Buses</button>
+                <button class="filter-btn" data-filter="logistics-cargo">Cargo Trucks</button>
+            </div>
+        </div>
+        <p id="vehicle-count" class="vehicle-count">Loading vehicles...</p>
+    </section>
+
+    <!-- Cars Grid Section -->
+    <section class="container">
+        <div id="cars-grid" class="grid grid-3">
+            <!-- Cars will be dynamically loaded here -->
+            <div class="loading-message">
+                <p>Loading vehicles...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section style="background-color: var(--light-gray); padding: 60px 0; margin: 40px 0;">
+        <div class="centered-content">
+            <div class="section-title">
+                <h2>Why Rent with TANZARIDE?</h2>
+            </div>
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-icon">✓</div>
+                    <h3>Verified Vehicles</h3>
+                    <p>All cars are inspected and verified by our team to ensure quality and safety.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💰</div>
+                    <h3>Competitive Rates</h3>
+                    <p>Fair pricing with no hidden fees. Get the best value for your money.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Trusted Owners</h3>
+                    <p>Rent from verified car owners with excellent ratings and reviews.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="container" style="text-align: center; padding: 80px 20px;">
+        <h2>Don't See What You're Looking For?</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem;">Contact us and we'll help you find the perfect vehicle for your needs</p>
+        <a href="contact.html" class="btn btn-primary" style="margin-right: 1rem;">Contact Us</a>
+        <a href="listcar.html" class="btn btn-outline">List Your Car</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TANZARIDE</h3>
+                    <p>Tanzania's trusted car rental platform connecting vehicle owners with travelers.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="howitworks.html">How It Works</a></li>
+                        <li><a href="cars.html">Browse Cars</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="listcar.html">List Your Car</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>📧 partnership@tanzaride.com</li>
+                        <li>📞 +255 757 200 856</li>
+                        <li>👤 Owner: Lazaro</li>
+                        <li>🌐 tanzaride.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TANZARIDE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="cars-data.js"></script>
+    <script src="cars-loader.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
